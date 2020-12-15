@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ResourceName">
+
+    <dimen name="conversation_item_icon" >50dp</dimen>
+    <dimen name="chat_face_group_hei" >40dp</dimen>
+    <dimen name="chat_face_group_item_wid" >55dp</dimen>
+    <dimen name="chat_audio_item_width">49.35dp</dimen>
+    <dimen name="chat_message_item_radius">20dp</dimen>
+
+    <dimen name="chat_def_line" >1dp</dimen>
+    <dimen name="chat_def_marg5" >5dp</dimen>
+    <dimen name="chat_def_marg8" >8dp</dimen>
+    <dimen name="chat_def_marg10" >10dp</dimen>
+
+
+    <dimen name="chat_default_text_size" >14sp</dimen>
+    <dimen name="chat_default_text_size_min" >12sp</dimen>
+
+</resources>

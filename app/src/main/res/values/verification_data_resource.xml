@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        正确能够通过验证的密码列表(密码池)
+        注:
+        1、此处的密码必须在设备中配置其中的一个才可正常使用。否则将无法通过验证
+        2、此验证顺序低于设备白名单
+        3、如果设备白名单验证通过了。那么此密码验证将会不生效,以白名单验证结果为准
+    -->
+    <string-array name="verifcationPassword">
+        <item>密码1</item>
+        <item>密码2</item>
+        <item>密码3</item>
+        <item>密码4</item>
+        <item>密码5</item>
+        <item>更多密码依次类推</item>
+    </string-array>
+
+    <!--
+        设备白名单列表(白名单池)
+        注：
+        如果在此白名单池中的设备。可以享有免密码验证。即直接跳过所有验证都可以正常使用，此验证是第一顺序
+    -->
+    <string-array name="verifcationDevices">
+        <item>设备编码1</item>
+        <item>设备编码2</item>
+        <item>设备编码3</item>
+        <item>设备编码4</item>
+        <item>设备编码5</item>
+        <item>更多编码依次类推</item>
+    </string-array>
+</resources>
